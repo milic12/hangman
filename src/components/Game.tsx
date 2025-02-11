@@ -133,7 +133,7 @@ const Game = () => {
     return (
       <div className="text-center p-4 text-red-500">Error loading quote</div>
     );
-  console.log("qute", quoteData);
+
   return (
     <div className="max-w-4xl mx-auto p-6 text-center">
       <h2 className="text-2xl mb-8">
