@@ -131,7 +131,11 @@ const Game = () => {
     return <div className="text-center p-4">Pending...</div>;
   if (error)
     return (
-      <div className="text-center p-4 text-red-500">Error loading quote</div>
+      <>
+        <div className="text-center p-4 text-red-500">Error loading quote</div>
+
+        <button onClick={() => window.location.reload()}>Reload Page</button>
+      </>
     );
 
   return (
